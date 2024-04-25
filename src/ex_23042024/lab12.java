@@ -11,6 +11,10 @@ public class lab12 {
         }
         else {
             System.out.println("Negative number");
+            System.out.println("Negative number");
+
+            System.out.println("Negative number");
+
         }
     }
 }
