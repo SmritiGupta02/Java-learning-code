@@ -1,0 +1,25 @@
+package ex_25042024;
+import java.util.Scanner;
+public class lab18 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the browser name");
+        String browsername = sc.nextLine();
+        browsername = browsername.toLowerCase();
+        switch (browsername) {
+            case "chrome":
+                System.out.println("Starting chrome browser");
+                break;
+            case "firefox":
+                System.out.println("Starting firefox browser");
+                break;
+            case "edge":
+                System.out.println("Execute the edge code");
+                break;
+            default:
+                System.out.println("I have no idea which browser is this");
+                break;
+        }
+    }
+}
+
